@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Not found - The Post Office</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <filter id="wavy">
+            <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" result="noise"/>
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+        </filter>
+    </svg>
+
+    <main class="page">
+        <h1 class="sign"><a href="{{ url_for('index') }}">The Post Office</a></h1>
+
+        <section class="paper note">
+            <h2>Return to sender</h2>
+            <p>We couldn't find that card or page. The link may have been mistyped.</p>
+
+            <p class="after">
+                <a class="button" href="{{ url_for('index') }}">Back to the Post Office</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
