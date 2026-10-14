@@ -24,13 +24,3 @@ Open PowerShell in the project’s root folder, then run:
 py -m venv .venv
 .\.venv\Scripts\python.exe -m pip install Flask
 .\.venv\Scripts\python.exe .\APP.PY
-
-Or within a powershell window in VS code, put this into a terminal:
-
-
-```powershell
-cd terra\real
-py -m venv .venv
-.\.venv\Scripts\python.exe -m pip install Flask
-.\.venv\Scripts\python.exe .\APP.PY
-
