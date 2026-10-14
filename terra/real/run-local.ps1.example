@@ -1,0 +1,11 @@
+# Copy this file to run-local.ps1, fill in your SMTP settings, then run:
+# .\run-local.ps1
+
+$env:SMTP_HOST = "smtp.gmail.com"
+$env:SMTP_PORT = "587"
+$env:SMTP_USER = "you@gmail.com"
+# For Gmail, use an App Password, not your normal account password.
+$env:SMTP_PASSWORD = "your-gmail-app-password"
+$env:SMTP_FROM = "you@gmail.com"
+
+
