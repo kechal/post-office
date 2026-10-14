@@ -15,7 +15,7 @@ Open PowerShell in the project’s root folder, then run:
 ## Run on Windows (without VS Code)
 
 1. Install [Python](https://www.python.org/downloads/) if it isn’t already installed.
-2. In File Explorer, open the project folder that contains `APP.PY`. Right-click an empty area and choose **Open in Terminal**.
+2. In File Explorer, open the project folder that contains `app.py`. Right-click an empty area and choose **Open in Terminal**.
 3. Paste these commands into PowerShell:
 
 
